@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1> Hello! </h1>
+    <p class="text-warning"> I dont know whats this but hi!!! </p>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Let's try this one thing
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    Oh hello again! 
+                    <p class="text-info">Nice to meet you!! </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Here's the other one
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    Oh my god i can literally do this! This is <p class="text-success"> INTERESTING</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    ANOTHER ONEEE
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    DJ KHALED!! 
+                    <p class="text-secondary">I'm sorry that was a bad joke.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <h3>By the way, How are you today?</h3>
+    <form action="/action_page.php">
+        <label for="defaultRange">Your mood today is</label>
+        <input type="range" id="defaultRange" name="points2">
+    </form>
+    <p>So how was your day?</p>
+    <form action="/action_page.php">
+        <input type="radio" id="defaultRadio" name="ex1">
+        <label for="defaultRadio"> It was great! Thanks for asking! </label>
+        </label>
+        <br>
+        <input type="radio" id="defaultRadio" name="ex2">
+        <label for="defaultRadio">Nah i dont really want to talk about it</label>
+    </form>
+</div>
+
+<div class="container">
+    <p>Okay so I found this on w3. It's similar with the one on html but I think it has a bit differences?</p>
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th>Hello Left</th>
+                <th> Hello Right</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Upper Left HI!</td>
+                <td>Hai Upper Right</td>
+            </tr>
+            <tr>
+                <td>Here's lower left</td>
+                <td>And here's lower right</td>
+            </tr>
+            <tr> 
+                <td>this is interesting</td>
+                <td> you can hover this and boom it changes color</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p> suddenly i want to try this thing out</p>
+ <div class="progress">
+    <div class="progress-bar bg-info" style="width:30%"></div>
+  </div><br>
+<p>oh ok so that's how it wokrs</p>
+<br>
+
+</body>
+</html>
